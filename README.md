@@ -13,20 +13,36 @@ Final project for Lighthouse Labs. JoinUs allows users to arrange casual short-t
 - Typescript
 - Material UI
 - React Native
+- React Native Element
 
 ## Screenshots:
 
 ![Home](https://github.com/josephdoba/JoinUs/blob/main/docs/HomePage.png)
+JoinUs! Landing page.
+
+![Log in](https://github.com/carmtsang/JoinUs/blob/main/docs/login.jpg)
+Log in screen
 
 ![User Home](https://github.com/josephdoba/JoinUs/blob/main/docs/UserHome.png)
+User's home page
 
-![Event Card](https://github.com/josephdoba/JoinUs/blob/main/docs/IndividualEvent.png)
+![Event Details](https://github.com/josephdoba/JoinUs/blob/main/docs/IndividualEvent.png)
+Event Details
 
 ![Create/Edit Event Form](https://github.com/josephdoba/JoinUs/blob/main/docs/CreateEvent.png)
+New/Edit Event Form
 
 ![Dark Mode User Home](https://github.com/josephdoba/JoinUs/blob/main/docs/DarkModeUserHome.png)
+Dark Mode
 
-![Dark Mode Event Card](https://github.com/josephdoba/JoinUs/blob/main/docs/DarkModeIndividual.png)
+![Dark Mode Event Details](https://github.com/josephdoba/JoinUs/blob/main/docs/DarkModeIndividual.png)
+Event Details in dark mode.
+
+![Mobile Home](https://github.com/carmtsang/JoinUs/blob/main/docs/mobilehome.jpg)
+Mobile Landing page
+
+![Mobile EventList](https://github.com/carmtsang/JoinUs/blob/main/docs/mobileevent.jpg)
+Mobile List of all events.
 
 ## Setup:
 
@@ -44,7 +60,6 @@ Final project for Lighthouse Labs. JoinUs allows users to arrange casual short-t
 ### `/server`
 
 - run `npm install` to install dependencies.
-- run `npm run build` for the server folder to compile Typescript files.
 - run `npm run local` to run the server with node-mon.
 
 ## Database Setup:
@@ -67,11 +82,6 @@ Final project for Lighthouse Labs. JoinUs allows users to arrange casual short-t
 
 6. Visit `http://localhost:8080/`
 
-## Warnings & Tips
-
-- Split routes into their own resource-based file names, as demonstrated with `users.js` and `widgets.js`
-- Split database schema (table definitions) and seeds (inserts) into separate files, one per table. See `db` folder for pre-populated examples.
-
 ## Dependencies:
 
 - Node 10.x or above
@@ -79,10 +89,12 @@ Final project for Lighthouse Labs. JoinUs allows users to arrange casual short-t
 - PG 6.x
 - Google Maps API
 - [Cocoa Pods](https://cocoapods.org/)
-- dayjs
 - momentjs
 - nodemon
 - morgan
 - body-parser
 - react-router-dom
 - tslint
+- mui
+- reach combobox
+- axios
