@@ -11,7 +11,7 @@ const DATA = [
   },
   {
     id: 2,
-    image: require('../../images/idea.png'),
+    image: require('../../images/Idea.png'),
     title: 'Create',
     description:
       'Think of something fun to do and make an event or join someone in theirs',
@@ -25,7 +25,7 @@ const DATA = [
   },
   {
     id: 4,
-    image: require('../../images/meet.png'),
+    image: require('../../images/Meet.png'),
     title: 'Meet',
     description: 'Head out and do something new with a new friend.',
   },
